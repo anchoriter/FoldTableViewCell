@@ -110,14 +110,19 @@ static NSString *NewsCellIdentifier = @"newsCellIdentifier";
         // 动态计算cell高度
         // 这里使用了forkingdog的框架
         // https://github.com/forkingdog/UITableView-FDTemplateLayoutCell
+        // UITableView+FDTemplateLayoutCell这个分类牛逼的地方就在于自动计算行高了
+        // 如果我们在没有缓存的情况下，只要你使用了它其实高度的计算不需要我们来管，我们只需要[self.tableView reloadData]就完全足够了
+        // 但是如果有缓存的时候，这个问题就来了，你会发现，点击展开布局会乱，有一部分会看不到，这是因为高度并没有变化，一直用的是缓存的高度，所以解决办法如下
+        
         
         if (model.isOpening) {
+            // 使用不缓存的方式
             return [self.newsTableView fd_heightForCellWithIdentifier:NewsCellIdentifier configuration:^(id cell) {
                 
                 [self handleCellHeightWithNewsCell:cell indexPath:indexPath];
             }];
         }else{
-            
+            // 使用缓存的方式
             return [self.newsTableView fd_heightForCellWithIdentifier:NewsCellIdentifier cacheByIndexPath:indexPath configuration:^(id cell) {
                 
                 [self handleCellHeightWithNewsCell:cell indexPath:indexPath];

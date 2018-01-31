@@ -74,6 +74,7 @@
     
     self.newsText.text = newsModel.desc;
     // 可以在这里修改行间距，下面在计算文本高度的时候也要对应设置
+    // 如果不需要修改，可以省去这一步，但注意下面获取高度的时候不要再设置行间距
     if (self.newsText.text.length > 0) {
         NSMutableAttributedString *img_text = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@", newsModel.desc]];
 

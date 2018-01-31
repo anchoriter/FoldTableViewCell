@@ -24,8 +24,6 @@
 @interface NewsCell : UITableViewCell
 /** 数据模型 */
 @property (nonatomic, strong) NewsModel *newsModel;
-/** cell序号 */
-@property (nonatomic, assign) NSInteger flashIndex;
 
 @property (nonatomic, weak) id<NewsCellCellDelegate> cellDelegate;
 
