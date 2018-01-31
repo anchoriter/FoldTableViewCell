@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03493E0FB7DCE498D262B451 /* libPods-FoldTableViewCellDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137C0CC412656259BB897C7 /* libPods-FoldTableViewCellDemo.a */; };
+		54CBB9F1202158FF00551B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBB9F0202158FF00551B72 /* AppDelegate.m */; };
+		54CBB9F4202158FF00551B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBB9F3202158FF00551B72 /* ViewController.m */; };
+		54CBB9F7202158FF00551B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CBB9F5202158FF00551B72 /* Main.storyboard */; };
+		54CBB9F9202158FF00551B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CBB9F8202158FF00551B72 /* Assets.xcassets */; };
+		54CBB9FC202158FF00551B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CBB9FA202158FF00551B72 /* LaunchScreen.storyboard */; };
+		54CBB9FF202158FF00551B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBB9FE202158FF00551B72 /* main.m */; };
+		54CBBA072021597400551B72 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBBA062021597400551B72 /* NewsModel.m */; };
+		54CBBA0A2021599200551B72 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBBA092021599200551B72 /* NewsCell.m */; };
+		54CBBA0D2021698B00551B72 /* newsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54CBBA0C2021698A00551B72 /* newsData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0137C0CC412656259BB897C7 /* libPods-FoldTableViewCellDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoldTableViewCellDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164B90EF68BD896330E7B5BA /* Pods-FoldTableViewCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldTableViewCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoldTableViewCellDemo/Pods-FoldTableViewCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		54CBB9EC202158FF00551B72 /* FoldTableViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldTableViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CBB9EF202158FF00551B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54CBB9F0202158FF00551B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54CBB9F2202158FF00551B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54CBB9F3202158FF00551B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54CBB9F6202158FF00551B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54CBB9F8202158FF00551B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54CBB9FB202158FF00551B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54CBB9FD202158FF00551B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CBB9FE202158FF00551B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54CBBA052021597400551B72 /* NewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		54CBBA062021597400551B72 /* NewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		54CBBA082021599200551B72 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		54CBBA092021599200551B72 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		54CBBA0B20215E6F00551B72 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		54CBBA0C2021698A00551B72 /* newsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newsData.json; sourceTree = "<group>"; };
+		C4029FA7FCB2724463CDD23B /* Pods-FoldTableViewCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldTableViewCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoldTableViewCellDemo/Pods-FoldTableViewCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54CBB9E9202158FF00551B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03493E0FB7DCE498D262B451 /* libPods-FoldTableViewCellDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252A63467CAC3148D622D9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0137C0CC412656259BB897C7 /* libPods-FoldTableViewCellDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54CBB9E3202158FF00551B72 = {
+			isa = PBXGroup;
+			children = (
+				54CBB9EE202158FF00551B72 /* FoldTableViewCellDemo */,
+				54CBB9ED202158FF00551B72 /* Products */,
+				C6C27910C06A666ECAEB161F /* Pods */,
+				252A63467CAC3148D622D9E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54CBB9ED202158FF00551B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54CBB9EC202158FF00551B72 /* FoldTableViewCellDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CBB9EE202158FF00551B72 /* FoldTableViewCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54CBB9EF202158FF00551B72 /* AppDelegate.h */,
+				54CBB9F0202158FF00551B72 /* AppDelegate.m */,
+				54CBB9F2202158FF00551B72 /* ViewController.h */,
+				54CBB9F3202158FF00551B72 /* ViewController.m */,
+				54CBBA052021597400551B72 /* NewsModel.h */,
+				54CBBA062021597400551B72 /* NewsModel.m */,
+				54CBBA082021599200551B72 /* NewsCell.h */,
+				54CBBA092021599200551B72 /* NewsCell.m */,
+				54CBBA0C2021698A00551B72 /* newsData.json */,
+				54CBBA0B20215E6F00551B72 /* PrefixHeader.pch */,
+				54CBB9F5202158FF00551B72 /* Main.storyboard */,
+				54CBB9F8202158FF00551B72 /* Assets.xcassets */,
+				54CBB9FA202158FF00551B72 /* LaunchScreen.storyboard */,
+				54CBB9FD202158FF00551B72 /* Info.plist */,
+				54CBB9FE202158FF00551B72 /* main.m */,
+			);
+			path = FoldTableViewCellDemo;
+			sourceTree = "<group>";
+		};
+		C6C27910C06A666ECAEB161F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				164B90EF68BD896330E7B5BA /* Pods-FoldTableViewCellDemo.debug.xcconfig */,
+				C4029FA7FCB2724463CDD23B /* Pods-FoldTableViewCellDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54CBB9EB202158FF00551B72 /* FoldTableViewCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CBBA02202158FF00551B72 /* Build configuration list for PBXNativeTarget "FoldTableViewCellDemo" */;
+			buildPhases = (
+				F60A9EB02067BB433C510893 /* [CP] Check Pods Manifest.lock */,
+				54CBB9E8202158FF00551B72 /* Sources */,
+				54CBB9E9202158FF00551B72 /* Frameworks */,
+				54CBB9EA202158FF00551B72 /* Resources */,
+				4E4C8D7F87F8CFF03A5896C5 /* [CP] Embed Pods Frameworks */,
+				B047EB6873EAC3C6C6967264 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldTableViewCellDemo;
+			productName = FoldTableViewCellDemo;
+			productReference = 54CBB9EC202158FF00551B72 /* FoldTableViewCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54CBB9E4202158FF00551B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Anchoriter;
+				TargetAttributes = {
+					54CBB9EB202158FF00551B72 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54CBB9E7202158FF00551B72 /* Build configuration list for PBXProject "FoldTableViewCellDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54CBB9E3202158FF00551B72;
+			productRefGroup = 54CBB9ED202158FF00551B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54CBB9EB202158FF00551B72 /* FoldTableViewCellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54CBB9EA202158FF00551B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CBB9FC202158FF00551B72 /* LaunchScreen.storyboard in Resources */,
+				54CBB9F9202158FF00551B72 /* Assets.xcassets in Resources */,
+				54CBB9F7202158FF00551B72 /* Main.storyboard in Resources */,
+				54CBBA0D2021698B00551B72 /* newsData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E4C8D7F87F8CFF03A5896C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldTableViewCellDemo/Pods-FoldTableViewCellDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B047EB6873EAC3C6C6967264 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldTableViewCellDemo/Pods-FoldTableViewCellDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60A9EB02067BB433C510893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoldTableViewCellDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54CBB9E8202158FF00551B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CBBA072021597400551B72 /* NewsModel.m in Sources */,
+				54CBB9F4202158FF00551B72 /* ViewController.m in Sources */,
+				54CBB9FF202158FF00551B72 /* main.m in Sources */,
+				54CBBA0A2021599200551B72 /* NewsCell.m in Sources */,
+				54CBB9F1202158FF00551B72 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54CBB9F5202158FF00551B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54CBB9F6202158FF00551B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54CBB9FA202158FF00551B72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54CBB9FB202158FF00551B72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54CBBA00202158FF00551B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54CBBA01202158FF00551B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54CBBA03202158FF00551B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164B90EF68BD896330E7B5BA /* Pods-FoldTableViewCellDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PFJ7CT2DA;
+				GCC_PREFIX_HEADER = FoldTableViewCellDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = FoldTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anchoriter.FoldTableViewCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54CBBA04202158FF00551B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4029FA7FCB2724463CDD23B /* Pods-FoldTableViewCellDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PFJ7CT2DA;
+				GCC_PREFIX_HEADER = FoldTableViewCellDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = FoldTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anchoriter.FoldTableViewCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54CBB9E7202158FF00551B72 /* Build configuration list for PBXProject "FoldTableViewCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CBBA00202158FF00551B72 /* Debug */,
+				54CBBA01202158FF00551B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CBBA02202158FF00551B72 /* Build configuration list for PBXNativeTarget "FoldTableViewCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CBBA03202158FF00551B72 /* Debug */,
+				54CBBA04202158FF00551B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54CBB9E4202158FF00551B72 /* Project object */;
+}

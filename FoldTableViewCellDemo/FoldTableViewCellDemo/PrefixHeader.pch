@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  FoldTableViewCellDemo
+//
+//  Created by Anchoriter on 2018/1/31.
+//  Copyright © 2018年 Anchoriter. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+// 如果你想在使用Masonry这个框架的时候省略mas_这个前缀可以定义下面这个宏
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+// 如果你想让equalTo也带有自动装箱功能请定义下面这个宏
+#define MAS_SHORTHAND_GLOBALS
+
+
+#endif /* PrefixHeader_pch */
