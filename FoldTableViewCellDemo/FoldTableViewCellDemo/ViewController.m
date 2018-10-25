@@ -95,9 +95,9 @@ static NSString *NewsCellIdentifier = @"newsCellIdentifier";
      NewsModel *model = self.newsDataArray[indexPath.row];
     
     model.isOpening = !model.isOpening;
-    [UIView animateWithDuration:0.2 animations:^{
-        [self.newsTableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }];
+    [self.newsTableView beginUpdates];
+    [self.newsTableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    [self.newsTableView endUpdates];
 }
 /**
  *  设置cell高度
